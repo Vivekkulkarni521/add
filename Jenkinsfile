@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Define a class with overloaded methods
-                    class Calculator {
+                    class Addition{
                         int add(int a, int b) {
                             return a + b
                         }
